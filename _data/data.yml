@@ -1,0 +1,208 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ezra Neer
+    tagline: DevSecOps Bard
+    avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ezra@neerautomata.com
+    phone: 
+    timezone: America/Los Angeles
+    citizenship:
+    website: neerautomata.com #do not add http://
+    linkedin: ezra-neer-28297a12a
+    xing: 
+    github: nyanbinaryneko
+    telegram: # add your nickname without '@' sign
+    gitlab: nyanbinaryneko
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Tabletop Gaming
+          link:
+
+        - item: Cooking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      A remote DevSecOps practitioner with 8+ years experience in delivering quality, cost-effective, and time saving solutions. 
+      Expert in Python, automation, CI/CD pipelines, deploying automation and infrastructure as code, with a track record of reduciing downtime and improving performance. 
+      Proven ability to maintain and improve CI/CD pipelines reducing downtime and ensuring continous delivery of quality software with maximum uptime. 
+      Commitment to supporting developers and maintaining dev tooling, and performance observability and monitoring solutions helping reduce developer toil and debugging time, ensuring high quality software.
+      Devoted to delivering secure infrastructure with AWS and Terraform best practices in mind.
+education:
+    title: Education
+    info:
+      - degree: Bachelors of Science in Computer Science
+        university: Florida Atlantic University
+        time: 2014 - 2016
+      - degree: Bachelors of Science in Mathematics
+        university: Florida Atlantic University
+        time: 2014 - 2016
+      - degree: Associate of Science in Computer Programming
+        university: Palm Beach State College
+        time: 2011 - 2013
+
+experiences:
+    title: Experiences
+    info:
+      - role: InfraSec Engineer (III)
+        time: April 2021 - October 2023
+        company: Truss Inc, Remote
+        details: |
+          - Designed, implemented, and maintained extensive operatations infrastructure for the support of a disparate platform of Go-based projects requiring automation and continous deployment. 
+          - Enhanced and developed numerous Terraform based projects providing significant improvements to infrastructure as code and automation. 
+          - Helped reduce developer toil by moving the infrastructure CI/CD pipeline off of CircleCI and into Github Actions. 
+          - Deployed and maintained Atlantis in multiple AWS and AWS GovCloud account environments, reducing the number of hours spent in code review for the Infrasec Team.
+          - Deployed Graylog and Graphana for telemetry, data aggregation, and observibility for supporting the development team's application.
+          - Developed telemetry to automatically report and monitor noncompliant resource usage within AWS using an AWS Lambda and AWS Config. 
+          - Performed numerous GRC-related duties pertaining to the continued maintenance of IL4-compliant authority to operate as required for the overall function of the organization. Maintained and contributed to Trussworks' OSS Terraform and AWS lambda libraries.
+      
+      - role: Full Stack Web Developer, Consultant, Contractor
+        time: February 2020 - April 2021
+        company: Quantum International
+        details: |
+          - Developed and maintained Flask applications and identity management python packages. 
+          - Developed a CRM Flask application for penetration test reporting
+      - role: Automation Engineer, DevOps
+        time: August 2019 - January 2020
+        company: ZipCar
+        details: |
+          - Developed and maintained Concourse pipelines and various automation and chatops projects. 
+      - role: Fullstack Developer, DevOps
+        time: June 2018 - August 2019
+        company: Intuition Machines/HCaptcha
+        details: |
+          - Developed and maintained containerized solutions for a blockchain based image labeling platformS.
+
+certifications:
+      title: Certifications
+      list:
+        - name: Security+
+          start: 2021
+          end: 
+          organization: CompTia
+          credentialid: SY0-601
+          credentialurl: www.comptia.org
+          credentialname:
+          details: |
+            CompTIA Security+ is a global certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career.
+        - name: US Secret Clearance
+          start: 2020
+          end:
+          organization: United States Government
+          credentialid: 
+          credentialurl: 
+          credentialname: Clearance
+          details: |
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Terraform
+        level: 98%
+
+      - name: AWS
+        level: 98%
+
+      - name: Docker
+        level: 80%
+
+      - name: Kubernetes
+        level: 75%
+
